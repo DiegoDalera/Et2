@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ETCONSULTORES — Ingeniería · Hidráulica · Construcción</title>
+  <meta name="description"
+    content="Consultoría técnica integral en ingeniería hidráulica, vial y construcción. Más de 20 años proyectando y dirigiendo obras de infraestructura de gran escala en Argentina." />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Lato:wght@300;400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+     NAVBAR
+  ============================================================ -->
+  <nav id="navbar" role="navigation" aria-label="Navegación principal">
+    <a href="#hero" class="nav-logo">
+      <!-- Usar et-logo-white.png si está disponible, sino et-logo.png -->
+      <img src="et-logo-white.png" alt="ETCONSULTORES — Ingeniería Hidráulica Construcción" />
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#equipo">Equipo</a></li>
+    </ul>
+
+    <a href="#contacto" class="nav-cta">Consultar proyecto</a>
+
+    <button class="nav-hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false"
+      aria-controls="mobile-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <nav id="mobile-menu" class="nav-mobile" aria-label="Menú móvil">
+    <a href="#nosotros">Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#equipo">Equipo</a>
+    <a href="#contacto" class="nav-cta">Consultar proyecto</a>
+  </nav>
+
+  <!-- ============================================================
+     HERO
+  ============================================================ -->
+  <section id="hero" aria-label="Inicio">
+
+    <div class="hero-bg">
+      <video autoplay muted loop playsinline preload="auto">
+        <source src="video.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-accent-line" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="hero-label-wrap">
+        <span class="label">Consultoría de infraestructura</span>
+      </div>
+      <h1 class="hero-h1">
+        Construimos<br>el futuro de la<br><em>infraestructura</em>
+      </h1>
+      <p class="hero-sub">
+        Proyectamos y dirigimos obras hidráulicas, viales y de construcción de gran envergadura.
+        Más de 20 años de experiencia en proyectos que transforman territorios.
+      </p>
+      <div class="hero-btns">
+        <a href="#contacto" class="btn-primary">Hablar con un especialista</a>
+        <a href="#servicios" class="btn-outline">Ver servicios</a>
+      </div>
+    </div>
+
+    <div class="hero-stats" aria-label="Indicadores clave">
+      <div class="hero-stat">
+        <div class="hero-stat-number" data-value="80">+80</div>
+        <div class="hero-stat-label">Proyectos ejecutados</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-number" data-value="20">20+</div>
+        <div class="hero-stat-label">Años de experiencia</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-number" data-value="12">12</div>
+        <div class="hero-stat-label">Provincias con obra activa</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-number" data-value="100">100%</div>
+        <div class="hero-stat-label">Compromiso con cada proyecto</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+     NOSOTROS
+  ============================================================ -->
+  <section id="nosotros">
+    <div class="nosotros-wrap">
+
+      <!-- Visual side -->
+      <div class="nosotros-visual reveal">
+        <div class="nosotros-box">
+          <div class="nosotros-box-accent"></div>
+          <div class="nosotros-values">
+
+            <div class="nosotros-value-item">
+              <svg class="nosotros-value-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 28 L4 12 L18 4 L32 12 L32 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <rect x="13" y="18" width="10" height="10" rx="1" stroke="currentColor" stroke-width="2" />
+              </svg>
+              <div class="nosotros-value-name">Ingeniería</div>
+              <div class="nosotros-value-desc">Diseño técnico de precisión en cada proyecto</div>
+            </div>
+
+            <div class="nosotros-value-item">
+              <svg class="nosotros-value-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="18" cy="18" r="13" stroke="currentColor" stroke-width="2" />
+                <path d="M18 10 L18 18 L24 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <div class="nosotros-value-name">Precisión</div>
+              <div class="nosotros-value-desc">Rigor técnico en plazos, costos y calidad</div>
+            </div>
+
+            <div class="nosotros-value-item">
+              <svg class="nosotros-value-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="22" width="8" height="11" rx="1" stroke="currentColor" stroke-width="2" />
+                <rect x="14" y="14" width="8" height="19" rx="1" stroke="currentColor" stroke-width="2" />
+                <rect x="25" y="6" width="8" height="27" rx="1" stroke="currentColor" stroke-width="2" />
+              </svg>
+              <div class="nosotros-value-name">Escala</div>
+              <div class="nosotros-value-desc">Experiencia en obras de gran envergadura</div>
+            </div>
+
+            <div class="nosotros-value-item">
+              <svg class="nosotros-value-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 3 L21.6 12 L32 12.8 L24.4 19.4 L26.8 30 L18 24.6 L9.2 30 L11.6 19.4 L4 12.8 L14.4 12 Z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+              </svg>
+              <div class="nosotros-value-name">Confianza</div>
+              <div class="nosotros-value-desc">Trayectoria comprobada en todo el país</div>
+            </div>
+
+          </div>
+
+          <div class="nosotros-badge">
+            <div class="nosotros-badge-num">20+</div>
+            <div class="nosotros-badge-txt">años de<br>trayectoria</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text side -->
+      <div class="nosotros-text reveal reveal-delay-2">
+        <span class="label">Quiénes somos</span>
+        <h2 class="section-title">Una consultora técnica <span>de referencia nacional</span></h2>
+        <p class="section-sub">
+          ETCONSULTORES es una empresa de ingeniería especializada en el proyecto, dirección
+          y gerenciamiento de obras de infraestructura pública y privada de alta complejidad.
+          Trabajamos con organismos estatales, municipios y empresas constructoras en todo el territorio argentino.
+        </p>
+        <ul class="nosotros-list">
+          <li class="nosotros-list-item">
+            <div class="nosotros-list-dot"></div>
+            <span>Equipo multidisciplinario de ingenieros civiles, hidráulicos y estructurales con más de 20 años de
+              experiencia.</span>
+          </li>
+          <li class="nosotros-list-item">
+            <div class="nosotros-list-dot"></div>
+            <span>Presencia activa en 12 provincias argentinas, con capacidad para operar en todo el territorio
+              nacional.</span>
+          </li>
+          <li class="nosotros-list-item">
+            <div class="nosotros-list-dot"></div>
+            <span>Más de 80 proyectos ejecutados en obras hidráulicas, viales, puentes y edificación civil
+              compleja.</span>
+          </li>
+          <li class="nosotros-list-item">
+            <div class="nosotros-list-dot"></div>
+            <span>Metodología rigurosa de control de calidad, plazos y costos desde la factibilidad hasta la entrega de
+              obra.</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+     SERVICIOS
+  ============================================================ -->
+  <section id="servicios">
+    <div class="section-header reveal">
+      <span class="label">Lo que hacemos</span>
+      <h2 class="section-title">Especialistas en obras<br><span>de gran escala</span></h2>
+      <p class="section-sub">
+        Brindamos consultoría técnica integral en todas las etapas del proyecto: factibilidad,
+        diseño, licitación, dirección y supervisión de obra.
+      </p>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon">
+          <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="52" height="52" rx="4" fill="#EBF4FA" />
+            <path d="M10 38 Q18 28 26 34 Q34 40 42 30" stroke="#0F4C81" stroke-width="2.5" stroke-linecap="round"
+              fill="none" />
+            <path d="M10 30 Q18 20 26 26 Q34 32 42 22" stroke="#22B5E5" stroke-width="2" stroke-linecap="round"
+              fill="none" />
+            <rect x="22" y="12" width="8" height="16" rx="1" fill="#0F4C81" />
+            <rect x="14" y="22" width="24" height="3" rx="1" fill="#0B1D2D" />
+          </svg>
+        </div>
+        <div class="service-title">Obras Hidráulicas</div>
+        <div class="service-desc">Diseño y construcción de diques, canales, sistemas de riego y control de inundaciones.
+          Planificación hídrica integrada para cuencas y embalses.</div>
+      </div>
+
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon">
+          <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="52" height="52" rx="4" fill="#EBF4FA" />
+            <line x1="8" y1="36" x2="44" y2="36" stroke="#0B1D2D" stroke-width="2.5" stroke-linecap="round" />
+            <path d="M14 36 L14 26 Q26 18 38 26 L38 36" stroke="#0F4C81" stroke-width="2.5" fill="none"
+              stroke-linecap="round" stroke-linejoin="round" />
+            <line x1="26" y1="20" x2="26" y2="36" stroke="#22B5E5" stroke-width="2" stroke-linecap="round" />
+            <line x1="20" y1="26" x2="20" y2="36" stroke="#22B5E5" stroke-width="1.5" stroke-linecap="round" />
+            <line x1="32" y1="26" x2="32" y2="36" stroke="#22B5E5" stroke-width="1.5" stroke-linecap="round" />
+          </svg>
+        </div>
+        <div class="service-title">Puentes y Viaductos</div>
+        <div class="service-desc">Ingeniería estructural de puentes de hormigón armado, metálicos y mixtos. Cálculo,
+          proyecto ejecutivo y dirección técnica de obra.</div>
+      </div>
+
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-icon">
+          <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="52" height="52" rx="4" fill="#EBF4FA" />
+            <path d="M26 42 L26 10" stroke="#D5DFE6" stroke-width="2" stroke-dasharray="4 3" stroke-linecap="round" />
+            <path d="M8 44 L26 10 L44 44 Z" stroke="#0F4C81" stroke-width="2.5" fill="none" stroke-linejoin="round" />
+            <path d="M14 38 L38 38" stroke="#0B1D2D" stroke-width="2.5" stroke-linecap="round" />
+            <path d="M11 43 L41 43" stroke="#0B1D2D" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </div>
+        <div class="service-title">Rutas y Autopistas</div>
+        <div class="service-desc">Proyecto y supervisión de infraestructura vial. Trazado, pavimentación, drenaje
+          superficial y señalización para obras de alta complejidad.</div>
+      </div>
+
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon">
+          <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="52" height="52" rx="4" fill="#EBF4FA" />
+            <rect x="12" y="20" width="16" height="22" rx="1" stroke="#0F4C81" stroke-width="2.5" fill="none" />
+            <rect x="30" y="28" width="10" height="14" rx="1" stroke="#0F4C81" stroke-width="2" fill="none" />
+            <line x1="8" y1="42" x2="44" y2="42" stroke="#0B1D2D" stroke-width="2.5" stroke-linecap="round" />
+            <rect x="17" y="26" width="5" height="5" rx=".5" fill="#22B5E5" />
+            <rect x="17" y="34" width="5" height="5" rx=".5" fill="#22B5E5" />
+            <line x1="20" y1="20" x2="20" y2="14" stroke="#22B5E5" stroke-width="2" stroke-linecap="round" />
+            <line x1="14" y1="14" x2="30" y2="14" stroke="#22B5E5" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </div>
+        <div class="service-title">Edificación e Infraestructura</div>
+        <div class="service-desc">Gerenciamiento y dirección de obras civiles complejas: plantas industriales, centros
+          logísticos, edificios institucionales y obras públicas.</div>
+      </div>
+
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon">
+          <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="52" height="52" rx="4" fill="#EBF4FA" />
+            <rect x="13" y="10" width="22" height="28" rx="2" stroke="#0F4C81" stroke-width="2.5" fill="none" />
+            <line x1="18" y1="18" x2="30" y2="18" stroke="#22B5E5" stroke-width="2" stroke-linecap="round" />
+            <line x1="18" y1="23" x2="30" y2="23" stroke="#22B5E5" stroke-width="2" stroke-linecap="round" />
+            <line x1="18" y1="28" x2="26" y2="28" stroke="#D5DFE6" stroke-width="2" stroke-linecap="round" />
+            <circle cx="36" cy="35" r="6" stroke="#0B1D2D" stroke-width="2.5" fill="none" />
+            <line x1="40" y1="39" x2="44" y2="43" stroke="#0B1D2D" stroke-width="2.5" stroke-linecap="round" />
+          </svg>
+        </div>
+        <div class="service-title">Estudios de Factibilidad</div>
+        <div class="service-desc">Análisis técnico-económico previo a la ejecución. Evaluación de riesgos, viabilidad
+          ambiental, hidrológica y estructural para la toma de decisiones.</div>
+      </div>
+
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-icon">
+          <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="52" height="52" rx="4" fill="#EBF4FA" />
+            <circle cx="26" cy="26" r="7" stroke="#0F4C81" stroke-width="2.5" fill="none" />
+            <circle cx="26" cy="26" r="2.5" fill="#22B5E5" />
+            <path
+              d="M26 12 L26 16 M26 36 L26 40 M12 26 L16 26 M36 26 L40 26 M15.5 15.5 L18.4 18.4 M33.6 33.6 L36.5 36.5 M36.5 15.5 L33.6 18.4 M18.4 33.6 L15.5 36.5"
+              stroke="#0B1D2D" stroke-width="2.5" stroke-linecap="round" />
+          </svg>
+        </div>
+        <div class="service-title">Dirección y Gestión de Proyectos</div>
+        <div class="service-desc">Coordinación integral desde licitación hasta entrega. Control de avance, calidad,
+          costos y plazos con equipos multidisciplinarios de alto nivel.</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+     PROYECTOS DESTACADOS
+  ============================================================ -->
+  <section id="proyectos">
+    <div class="section-header reveal">
+      <span class="label">Trayectoria</span>
+      <h2 class="section-title">Proyectos que <span>transforman territorios</span></h2>
+      <p class="section-sub">
+        Una selección de obras representativas que demuestran nuestra capacidad técnica y compromiso con la
+        infraestructura argentina.
+      </p>
+    </div>
+
+    <div class="proyectos-grid">
+
+      <div class="proyecto-card reveal reveal-delay-1">
+        <div class="proyecto-num">01</div>
+        <div class="proyecto-title">Sistema de Control de Inundaciones — Cuenca del Salado</div>
+        <div class="proyecto-desc">Proyecto ejecutivo y dirección técnica de obras de regulación hídrica en más de 120
+          km de canal principal con obras de arte complementarias.</div>
+        <span class="proyecto-tag">Obras Hidráulicas</span>
+      </div>
+
+      <div class="proyecto-card reveal reveal-delay-2">
+        <div class="proyecto-num">02</div>
+        <div class="proyecto-title">Puente sobre el Río Bermejo — Provincia de Chaco</div>
+        <div class="proyecto-desc">Diseño estructural y supervisión de puente de hormigón pretensado de 480 m de
+          extensión en área de alta vulnerabilidad sísmica e hídrica.</div>
+        <span class="proyecto-tag">Puentes y Viaductos</span>
+      </div>
+
+      <div class="proyecto-card reveal reveal-delay-3">
+        <div class="proyecto-num">03</div>
+        <div class="proyecto-title">Autopista Ruta Nacional 34 — Tramo Metán–Rosario de la Frontera</div>
+        <div class="proyecto-desc">Gerenciamiento integral de obra vial de 62 km, incluyendo corrimiento de traza, obras
+          de drenaje y construcción de tres intercambiadores.</div>
+        <span class="proyecto-tag">Rutas y Autopistas</span>
+      </div>
+
+      <div class="proyecto-card reveal reveal-delay-1">
+        <div class="proyecto-num">04</div>
+        <div class="proyecto-title">Centro Logístico Intermodal — Gran Rosario</div>
+        <div class="proyecto-desc">Dirección de obra de complejo logístico de 85.000 m² incluyendo playa de
+          contenedores, sector frigorífico y edificio administrativo de tres plantas.</div>
+        <span class="proyecto-tag">Edificación Civil</span>
+      </div>
+
+      <div class="proyecto-card reveal reveal-delay-2">
+        <div class="proyecto-num">05</div>
+        <div class="proyecto-title">Estudio de Factibilidad Dique Compensador — Comahue</div>
+        <div class="proyecto-desc">Análisis hidrólogo-hidráulico, modelación numérica y evaluación ambiental para obra
+          de regulación en cuenca del Río Neuquén.</div>
+        <span class="proyecto-tag">Estudios de Factibilidad</span>
+      </div>
+
+      <div class="proyecto-card reveal reveal-delay-3">
+        <div class="proyecto-num">06</div>
+        <div class="proyecto-title">Plan Maestro de Infraestructura Hídrica — NOA</div>
+        <div class="proyecto-desc">Consultoría integral para el desarrollo de 14 obras de infraestructura hídrica en el
+          Noroeste argentino, en coordinación con organismos nacionales y provinciales.</div>
+        <span class="proyecto-tag">Gestión de Proyectos</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+     EQUIPO
+  ============================================================ -->
+  <section id="equipo">
+    <div class="equipo-header reveal">
+      <span class="label">Quiénes somos</span>
+      <h2 class="section-title">El equipo detrás <span>de cada obra</span></h2>
+      <p class="section-sub" style="margin: 18px auto 0; max-width: 100%;">
+        Profesionales de la ingeniería con trayectoria comprobada en proyectos de gran envergadura en todo el país.
+      </p>
+    </div>
+
+    <div class="team-grid">
+
+      <div class="team-card reveal reveal-delay-1">
+        <div class="team-avatar">
+          <svg class="avatar-placeholder" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="30" cy="22" r="12" fill="#0F4C81" />
+            <path d="M6 54 C6 40 54 40 54 54" fill="#0B1D2D" />
+          </svg>
+        </div>
+        <div class="team-name">Ing. Eduardo Torres</div>
+        <div class="team-role">Socio fundador · Director técnico</div>
+        <div class="team-bio">Ingeniero civil con más de 25 años de experiencia en obras hidráulicas y viales.
+          Especialista en gestión de proyectos de infraestructura pública.</div>
+      </div>
+
+      <div class="team-card reveal reveal-delay-2">
+        <div class="team-avatar">
+          <svg class="avatar-placeholder" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="30" cy="22" r="12" fill="#0F4C81" />
+            <path d="M6 54 C6 40 54 40 54 54" fill="#0B1D2D" />
+          </svg>
+        </div>
+        <div class="team-name">Ing. Marcela Fernández</div>
+        <div class="team-role">Socia · Directora de proyectos</div>
+        <div class="team-bio">Especialista en ingeniería estructural y puentes. Lidera el área de proyecto ejecutivo y
+          supervisión de obras de construcción civil compleja.</div>
+      </div>
+
+      <div class="team-card reveal reveal-delay-3">
+        <div class="team-avatar">
+          <svg class="avatar-placeholder" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="30" cy="22" r="12" fill="#0F4C81" />
+            <path d="M6 54 C6 40 54 40 54 54" fill="#0B1D2D" />
+          </svg>
+        </div>
+        <div class="team-name">Ing. Nicolás Salgado</div>
+        <div class="team-role">Jefe de obra · Infraestructura vial</div>
+        <div class="team-bio">15 años de experiencia en construcción de rutas y autopistas. Especializado en control de
+          calidad y coordinación de obra en campo.</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+     CONTACTO
+  ============================================================ -->
+  <section id="contacto">
+    <div class="contact-wrap">
+      <div>
+        <div class="section-header reveal" style="margin-bottom: 40px;">
+          <span class="label">Trabajemos juntos</span>
+          <h2 class="section-title">¿Tenés un proyecto?<br><span>Consultanos</span></h2>
+          <p class="section-sub" style="margin-top: 16px;">
+            Nuestro equipo analiza cada requerimiento de forma personalizada.
+            Respondemos en menos de 24 horas hábiles.
+          </p>
+        </div>
+
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"
+                  stroke-width="1.8" />
+              </svg>
+            </div>
+            <div>
+              <div class="contact-item-title">Teléfono</div>
+              <div class="contact-item-val">+54 11 4000-0000</div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  stroke-width="1.8" />
+                <polyline points="22,6 12,13 2,6" stroke-width="1.8" />
+              </svg>
+            </div>
+            <div>
+              <div class="contact-item-title">Email</div>
+              <div class="contact-item-val">info@etconsultores.com.ar</div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke-width="1.8" />
+                <circle cx="12" cy="10" r="3" stroke-width="1.8" />
+              </svg>
+            </div>
+            <div>
+              <div class="contact-item-title">Oficina</div>
+              <div class="contact-item-val">
+                Buenos Aires, Argentina<br>
+                <span style="font-size:.82rem; opacity:.55;">Operamos en todo el territorio nacional</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form reveal reveal-delay-2" onsubmit="handleSubmit(event)" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text" placeholder="Juan Pérez" required />
+          </div>
+          <div class="form-group">
+            <label for="empresa">Empresa / Organismo</label>
+            <input id="empresa" type="text" placeholder="Empresa S.A." />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="juan@empresa.com" required />
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input id="telefono" type="tel" placeholder="+54 11 …" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="tipo">Tipo de proyecto</label>
+          <select id="tipo">
+            <option value="">Seleccioná una categoría</option>
+            <option>Obra Hidráulica / Dique</option>
+            <option>Puente o Viaducto</option>
+            <option>Ruta o Autopista</option>
+            <option>Edificación Civil</option>
+            <option>Estudio de Factibilidad</option>
+            <option>Dirección / Gerenciamiento</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="descripcion">Descripción del proyecto</label>
+          <textarea id="descripcion"
+            placeholder="Contanos brevemente en qué consiste el proyecto, la ubicación aproximada y la etapa actual…"></textarea>
+        </div>
+        <button type="submit" class="form-submit">
+          Enviar consulta
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </button>
+        <div id="form-msg">¡Consulta recibida! Nos ponemos en contacto pronto.</div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============================================================
+     FOOTER
+  ============================================================ -->
+  <footer>
+    <div class="footer-left">
+      <img src="et-logo-white.png" alt="ETCONSULTORES" />
+      <span class="footer-copy">© 2025 ETCONSULTORES — Ingeniería · Hidráulica · Construcción</span>
+    </div>
+    <ul class="footer-links">
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#equipo">Equipo</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
